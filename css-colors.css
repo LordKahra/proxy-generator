@@ -1,0 +1,23 @@
+.boxwhite { background-color: #fff; }
+.boxblue { background-color: #1199FF; }
+.boxblack { background-color: #999; }
+.boxred { background-color: #fbb; }
+.boxgreen { background-color: #8b8; }
+.boxgold { background-color: #fd8; }
+.boxartifact { background-color: #bbb; }
+
+.boxtitlewhite { background-color: #fff; box-shadow: 0px 0px 1px 1px #888 inset; border-color: #444; }
+.boxtitleblue { background-color: #def; box-shadow: 0px 0px 1px 1px #269 inset; border-color: #246; }
+.boxtitleblack { background-color: #ddd; box-shadow: 0px 0px 1px 1px #666 inset; border-color: #444; }
+.boxtitlered { background-color: #fee; box-shadow: 0px 0px 1px 1px #844 inset; border-color: #633; }
+.boxtitlegreen { background-color: #dfd; box-shadow: 0px 0px 1px 1px #464 inset; border-color: #353; }
+.boxtitlegold { background-color: #fed; box-shadow: 0px 0px 1px 1px #874 inset; border-color: #642; }
+.boxtitleartifact { background-color: #eee; box-shadow: 0px 0px 1px 1px #666 inset; border-color: #444; }
+
+.textboxwhite { background-color: #fff; box-shadow: 0px 0px 1px 1px #269 inset; border-color: #246; }
+.textboxblue { background-color: #def; box-shadow: 0px 0px 1px 1px #269 inset; border-color: #246; }
+.textboxblack { background-color: #ddd; box-shadow: 0px 0px 1px 1px #269 inset; border-color: #246; }
+.textboxred { background-color: #fee; box-shadow: 0px 0px 1px 1px #269 inset; border-color: #246; }
+.textboxgreen { background-color: #dfd; box-shadow: 0px 0px 1px 1px #269 inset; border-color: #246; }
+.textboxgold { background-color: #fed; box-shadow: 0px 0px 1px 1px #269 inset; border-color: #246; }
+.textboxartifact { background-color: #eee; box-shadow: 0px 0px 1px 1px #269 inset; border-color: #246; }

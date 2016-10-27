@@ -1,0 +1,28 @@
+@import url(font-families.css);
+
+body {
+    font-family: Rubik;
+}
+
+[data-key="name"] {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+[data-key="type"] {
+    font-family: Rubik;
+    font-size: 12px;
+}
+
+[data-key="text"] {
+    font-family: Rubik;
+    font-size: 10px;
+}
+
+[data-key="pt"], [data-key="loyalty"] {
+    font-weight: 900;
+    font-size: 16px;
+    font-family: Rubik;
+    line-height: 16px;
+}

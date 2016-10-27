@@ -1,0 +1,310 @@
+/* Color Scheme: http://colorschemedesigner.com/#5o31Tw0w0w0w0 */
+
+/* BASICS */
+
+@import url(css-fonts);
+
+h4 {
+    page-break-after: always;
+    }
+
+body {	
+	background-color: #fff;
+	color: #000;
+	font-size: 14px;
+	font-family: Arial;
+    font-weight: normal;
+    /*text-shadow: 0 0 1px rgba(0,0,0,0.5);*/
+    /*-webkit-font-smoothing: antialiased;*/
+	}
+    
+#card_form {
+    border: 0px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    }
+
+fieldset {
+    border: 0px;
+    }
+
+.delete {
+    position: relative;
+    top: 3px;
+    padding-left: 0px;
+    }
+
+input {
+    display: inline;
+    color: #888;
+    background-color: #fff;
+    border: 2px solid #222;
+    padding: 4px;
+    margin-right: 10px;
+    }
+
+.cardimage {
+    /* clip-path: rectangle(0%, 0%, 100%, 100%, 20%, 20%); Not yet implemented in all browsers. */
+    }
+
+/*/////////////////////////////////////////////
+///// FONTS ///////////////////////////////////
+/////////////////////////////////////////////*/
+
+@font-face
+{
+  font-family: 'Magic';
+  src: url('fonts/Magic.ttf');
+}
+
+@font-face
+{
+    font-family: 'Niagara';
+    src: url('fonts/NIAGSOL.TTF');
+}
+
+@font-face
+{
+    font-family: 'Corbel';
+    src: url('fonts/corbel.ttf');
+}
+
+@font-face
+{
+    font-family: 'Corbel Bold';
+    src: url('fonts/corbelb.ttf');
+}
+
+@font-face
+{
+    font-family: 'Telegrama';
+    src: url('fonts/telegrama_render.otf');
+}
+
+@font-face
+{
+    font-family: 'CSB';
+    src: url('fonts/csb.otf');
+}
+
+@font-face
+{
+    font-family: 'CS';
+    src: url('fonts/cs.otf');
+}
+
+@font-face
+{
+    font-family: 'Ubuntu';
+    src: url('fonts/ubuntu.ttf');
+}
+
+@font-face
+{ font-family: 'MPlantin'; src: url('fonts/mplantin.ttf'); }
+
+@font-face { font-family: 'Matrix'; src: url('fonts/matrix-smallcaps.ttf'); }
+
+/*/////////////////////////////////////////////
+///// CARD BOX ////////////////////////////////
+/////////////////////////////////////////////*/
+
+/*.cardprintpt:not(:empty):before, .cardprintloyalty:not(:empty):before
+{ content: "[ "; }*/
+
+/*.cardprintpt:not(:empty):after, .cardprintloyalty:not(:empty):after
+{ content: " ]"; }*/
+
+/*.cardprintpt:not(:empty), .cardprintloyalty:not(:empty)
+    { border: 1px solid #000;
+    border-radius: 5px; }*/
+
+/*/////////////////////////////////////////////
+///// FONTS ///////////////////////////////////
+/////////////////////////////////////////////*/
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: oblique;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	padding-top: 15px;
+	}
+
+h2 {
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 9px;
+	}
+
+ul {
+	list-style-type: none;
+	}
+
+a {
+	color: #36D88E;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+
+#nav-left {
+	background-color: #F16C97;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30%;
+	height: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	z-index: 2;
+	padding-left: 10%;
+	}
+
+#nav-right {
+	background-color: #F16C97;
+	position: absolute;
+	top: 0;
+	left: 30%;
+	width: 60%;
+	height: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	z-index: 1;
+	padding-right: 10%;
+	text-align: right;
+	}
+
+#nav-left a {
+	padding-right: 30px;
+	color: #000;
+	}
+#nav-right a {
+	padding-left: 30px;
+	color: #000;
+	}
+
+.header-image {
+	display: block;
+	margin: 10px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#container {
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background-color: #222;
+	}
+
+#footer {
+	border-top: 2px solid #E5FB71;
+	padding: 10px;
+	}
+
+.news-story {
+	border: 0px;
+	border-top: 2px solid #E5FB71;
+	padding: 10px;
+	margin: 0px;
+	}
+	
+.news-image {
+	float: right;
+	padding: 0px;
+	margin: 10px;
+	border: 2px solid #000;
+	}
+
+.orderrow {
+	color: #F4B4C8;
+	background-color: #111;
+	padding: 4px;
+	border: 1px solid #000;
+	}
+
+.orderrow1 {
+	color: #92A437;
+	background-color: #141803;
+	padding: 4px;
+	border: 1px solid #000;
+	border-top: 0px;
+	}
+
+.orderrow2 {
+	color: #00A85C;
+	background-color: #02150C;
+	padding: 4px;
+	border: 1px solid #000;
+	border-top: 0px;
+	}
+
+.orderdivrow {
+	clear: both;
+	height: 4px;
+	z-index: -1;
+	}
+
+.ordernum {
+	float: left;
+	width: 12%;
+	margin: 0;
+	padding: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+
+.ordercomp {
+	width: 200px;
+	margin: 0;
+	margin-left: 15%;
+	margin-right: 200px;
+	padding: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+
+.orderstatus {
+	float: right;
+	width: 150px;
+	margin: 0;
+	padding: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+
+.commentnum {
+	float: left;
+	width: 12%;
+	margin: 0;
+	padding: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+
+.commentcomp {
+	width: 200px;
+	margin: 0;
+	margin-left: 15%;
+	margin-right: 200px;
+	padding: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+
+.commentstatus {
+	float: right;
+	width: 150px;
+	margin: 0;
+	padding: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
