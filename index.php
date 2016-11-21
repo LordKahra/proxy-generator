@@ -1,6 +1,5 @@
 <?php
 
-//require_once 'scripts/database_connection.php';
 require 'scripts/view.php';
 
 /*$select_name_set =

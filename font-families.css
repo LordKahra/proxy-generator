@@ -1,0 +1,59 @@
+/* FONT FAMILIES */
+
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,900);
+
+@font-face
+{
+  font-family: 'Magic';
+  src: url('../fonts/Magic.ttf');
+}
+
+@font-face
+{
+    font-family: 'Niagara';
+    src: url('../fonts/NIAGSOL.TTF');
+}
+
+@font-face
+{
+    font-family: 'Corbel';
+    src: url('../fonts/corbel.ttf');
+}
+
+@font-face
+{
+    font-family: 'Corbel Bold';
+    src: url('../fonts/corbelb.ttf');
+}
+
+@font-face
+{
+    font-family: 'Telegrama';
+    src: url('../fonts/telegrama_render.otf');
+}
+
+@font-face
+{
+    font-family: 'CSB';
+    src: url('../fonts/csb.otf');
+}
+
+@font-face
+{
+    font-family: 'CS';
+    src: url('../fonts/cs.otf');
+}
+
+@font-face
+{
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu.ttf');
+}
+
+@font-face
+{ font-family: 'MPlantin'; src: url('../fonts/mplantin.ttf'); }
+
+@font-face { font-family: 'Matrix'; src: url('../fonts/matrix-smallcaps.ttf'); }
+
+/* FONT RULES */
+
